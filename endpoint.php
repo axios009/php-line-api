@@ -36,7 +36,7 @@ $app->post('/webhook', function (Request $request, Response $response) {
 
 function storeUserId($userId)
 {
-    $database->insert('line_users', ['userId' => $userId]);
+    // $database->insert('line_users', ['userId' => $userId]);
 }
 
 function handleLineMessage($event)
